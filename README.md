@@ -1,36 +1,91 @@
-# DSA Preparation From Zero Using Java
+# 🚀 DSA Preparation From Zero Using Java
 
-This repository contains my Java programming and Data Structures & Algorithms (DSA) learning journey.
+Welcome to my Java and Data Structures & Algorithms (DSA) learning journey.
+
+This repository documents my progress as I build strong programming fundamentals, improve problem-solving skills, and prepare for software engineering internships and placements.
+
+## 🎯 Goals
+
+* Master Core Java
+* Build strong DSA fundamentals
+* Solve coding interview problems
+* Prepare for Software Engineering Internships
+* Develop consistent coding habits
+
+## 💻 Language
+
+Java
+
+# 🚀 DSA Preparation From Zero Using Java
+
+Welcome to my Java and Data Structures & Algorithms (DSA) learning journey.
+
+This repository documents my progress as I build strong programming fundamentals, improve problem-solving skills, and prepare for software engineering internships and placements.
+
+## 🎯 Goals
+
+* Master Core Java
+* Build strong DSA fundamentals
+* Solve coding interview problems
+* Prepare for Software Engineering Internships
+* Develop consistent coding habits
+
+## 💻 Language
+
+Java
 
 ## Topics Covered
 
-### Java Basics
-- Introduction
-- Operators
-- Conditionals
-- Loops
-- Functions
-- Arrays
-- Strings
-- OOPs
+### 📈 Java Learning Tracker
 
-### DSA
-- Arrays
-- Searching
-- Sorting
-- Recursion
-- Linked List
-- Stack
-- Queue
-- Trees
-- Graphs
-- Dynamic Programming
+* [x] Introduction
+* [x] Operators
+* [x] Conditionals
+* [ ] Loops
+* [ ] Functions & Methods
+* [ ] Arrays
+* [ ] Strings
+* [ ] 2D Arrays
+* [ ] Object-Oriented Programming (OOPs)
+* [ ] Constructors
+* [ ] Inheritance
+* [ ] Polymorphism
+* [ ] Abstraction
+* [ ] Interfaces
+* [ ] Exception Handling
+* [ ] File Handling
+* [ ] Collections Framework
+* [ ] Generics
+* [ ] Multithreading
 
-## Goal
-To strengthen problem-solving skills and prepare for coding interviews and internships.
+### 📈 DSA Learning Tracker
 
-## Language
-Java
+* [ ] Time & Space Complexity
+* [ ] Recursion
+* [ ] Arrays
+* [ ] Binary Search
+* [ ] Sorting Algorithms
+* [ ] Bit Manipulation
+* [ ] Strings
+* [ ] Linked Lists
+* [ ] Stacks
+* [ ] Queues
+* [ ] Hashing
+* [ ] Trees
+* [ ] Binary Search Trees
+* [ ] Heaps
+* [ ] Tries
+* [ ] Graphs
+* [ ] Greedy Algorithms
+* [ ] Backtracking
+* [ ] Dynamic Programming
+* [ ] Segment Trees
+* [ ] Disjoint Set Union (DSU)
 
-## Author
-Annu Hooda
+## 👩‍💻 Author
+
+**Annu Hooda**
+
+B.Tech Computer Science Engineering (CSE)
+
+Aspiring Software Engineer | Java & DSA Learner
