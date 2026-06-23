@@ -1,27 +1,49 @@
 import java.util.*;
-public class billingConsole{
+
+public class billingConsole {
     public static void main(String[] args) {
-        System.out.print("Enter cost of 1st item :");
-    
+
         Scanner sc = new Scanner(System.in);
-        int item1,item2,item3,item4;
 
-        item1 = sc.nextInt();
-        System.out.print("Enter cost of 2nd item :");
-        item2 = sc.nextInt();
-        System.out.print("Enter cost of 3rd item :");
-        item3 = sc.nextInt();
-        System.out.print("Enter cost of 4th item :");
-        item4 = sc.nextInt();
+        System.out.print("Enter name of Item 1: ");
+        String item1Name = sc.nextLine();
+        System.out.print("Enter price of Item 1: ");
+        double item1Price = sc.nextDouble();
+        sc.nextLine();
 
-        int total_cost = item1+item2+item3+item4;
-        System.out.println("total cost :" + total_cost);
+        System.out.print("Enter name of Item 2: ");
+        String item2Name = sc.nextLine();
+        System.out.print("Enter price of Item 2: ");
+        double item2Price = sc.nextDouble();
+        sc.nextLine();
 
-        double GST = total_cost*0.18;
-        System.out.println("total GST :" + GST);
+        System.out.print("Enter name of Item 3: ");
+        String item3Name = sc.nextLine();
+        System.out.print("Enter price of Item 3: ");
+        double item3Price = sc.nextDouble();
+        sc.nextLine();
 
-        double total_amount = total_cost + GST;
-        System.out.println("Total amount to be paid:"+ total_amount);
+        System.out.print("Enter name of Item 4: ");
+        String item4Name = sc.nextLine();
+        System.out.print("Enter price of Item 4: ");
+        double item4Price = sc.nextDouble();
 
+        double subtotal = item1Price + item2Price + item3Price + item4Price;
+        double gst = subtotal * 0.18;
+        double totalAmount = subtotal + gst;
+
+        System.out.println("\n========== BILL ==========");
+        System.out.println(item1Name + " : " + item1Price);
+        System.out.println(item2Name + " : " + item2Price);
+        System.out.println(item3Name + " : " + item3Price);
+        System.out.println(item4Name + " : " + item4Price);
+
+        System.out.println("--------------------------");
+        System.out.println("Subtotal    : " + subtotal);
+        System.out.println("GST (18%)   : " + gst);
+        System.out.println("Total Amount: " + totalAmount);
+        System.out.println("==========================");
+
+        sc.close();
     }
 }
