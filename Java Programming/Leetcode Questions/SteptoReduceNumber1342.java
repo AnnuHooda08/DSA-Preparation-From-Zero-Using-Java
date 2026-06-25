@@ -12,7 +12,7 @@ public class SteptoReduceNumber1342 {
                 num -= 1;
             }
             step++;
-        }
+        }              
         System.out.println("number of steps are: " + step);
     }
 }
