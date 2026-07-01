@@ -42,6 +42,7 @@ Java
 * [x] Operators
 * [x] Conditionals
 * [x] Loops
+* [ ] Patterns
 * [ ] Functions & Methods
 * [ ] Arrays
 * [ ] Strings
